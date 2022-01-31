@@ -7,7 +7,7 @@ function setUserName() {
   if(!myName) {
     setUserName();
   } else {
-    localStorage.setItem('name', myName);
+    localStorage.setItem('name',myName);
   }
 }
 
